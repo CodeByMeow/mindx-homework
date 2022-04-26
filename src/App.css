@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Poppins');
+* {
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box 
+}
+
+body {
+  font-family:'Poppins', sans-serif;
+  }
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 24px
+}
+
+.container {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 100vh;
+  gap: 10px;
+  padding: 40px
+}
+
+.card-img {
+  height: 98px;
+  width: 98px;
+  background-color: #ccc;
+  border-radius: 50%;
+  overflow: hidden
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  
+.car-section {
+ width: 100%; 
+ display: flex;
+ justify-content: space-around;
+}
+
+.car-img img {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+
+.car-summary .btn {
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.car-summary .btn.red{
+  border: 3px solid red;
+}
+.car-summary .btn.black{
+  border: 3px solid black;
+}
+.car-summary .btn.white{
+  border: 3px solid #ccc;
+}
+
+/* PhoneStores */
+
+.product-list-header {
+  width: 100%;
+  padding-left: 20px;
+  color: #38486A;
+}
+.product-container {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+}
+.product-item {
+  padding: 15px;
+  text-align: center;
+}
+
+.product-item img {
+  max-width: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.product-item h3 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn-primary {
+  box-shadow: 3px 3px 3px #ccc, -3px -3px -3px #f8f8f8;
+}
