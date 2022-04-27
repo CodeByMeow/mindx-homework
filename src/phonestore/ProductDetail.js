@@ -10,6 +10,7 @@ class ProductDetail extends Component {
           <img src={img} />
         </div>
         <div className="product-desc">
+          <h2>thông số kỹ thuật</h2>
           <table>
             <tbody>
               <tr><td>màn hình</td><td>{desc.info.screen}</td></tr>
